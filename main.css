@@ -1,0 +1,108 @@
+
+body {
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 1.66;
+    margin: 0;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.cards {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+.cards .card-list {
+    display: flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+}
+
+.cards .card-item {
+    margin-right: 20px;
+    width: 195px;
+    height: 122px;
+}
+
+.cards .card-item:last-child {
+    margin-right: 0px;
+}
+
+.visa {
+    background-image: url(6b132c5112688eb66f16a39c8fcec357.png);
+}
+
+.masterCard {
+    background-image: url(035a87acf22abe2c53fdb9ac862319ec.png);
+}
+
+.mir {
+    background-image: url(631bf9ff95811574c744c8feb3fd287b.png);
+}
+
+.validate {
+    display: flex;
+    margin-top: 60px;
+}
+
+.input {
+        border: 1px solid #75b55b;
+        background-color: #f4f7f5;
+        font-size: 13px;
+        color: #888888;
+        height: 48px;
+        font-family: inherit;
+        padding: 18px;
+        width: 100%;
+}
+
+.validate-result {
+    margin-top: 10px;
+}
+
+.validate-result.isValidate {
+    background-color: #75b55b;
+}
+
+.validate-result.isNotValidate {
+    background-color: #cf461c;
+}
+
+.button {
+    background-color: #75b55b;
+    border: 0;
+    height: 48px;
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #ffffff;
+    width: 200px;
+    cursor: pointer;
+    flex-shrink: 0;
+}
+
+.disabled {
+    opacity: .3;
+}
+
+/*# sourceMappingURL=main.css.map*/
